@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>معرض أعمال الذكاء الاصطناعي وتجربة المستخدم</title>
+    <style>
+        :root {
+            --primary: #4f46e5;
+            --primary-dark: #4338ca;
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+        }
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(135deg, #1e293b, #0f172a);
+            padding: 4rem 2rem;
+            text-align: center;
+            border-bottom: 1px solid #334155;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            color: #ffffff;
+        }
+        header p {
+            color: var(--text-muted);
+            font-size: 1.2rem;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 3rem auto;
+            padding: 0 1.5rem;
+        }
+        .section-title {
+            font-size: 1.8rem;
+            margin-bottom: 1.5rem;
+            border-right: 4px solid var(--primary);
+            padding-right: 12px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+        }
+        .card {
+            background-color: var(--card-bg);
+            border: 1px solid #334155;
+            border-radius: 12px;
+            padding: 1.5rem;
+            transition: transform 0.2s, border-color 0.2s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            border-color: var(--primary);
+        }
+        .card h3 {
+            margin-top: 0;
+            color: #ffffff;
+        }
+        .card p {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: var(--text-muted);
+            border-top: 1px solid #334155;
+            margin-top: 4rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>محفظة الذكاء الاصطناعي وتجربة المستخدم</h1>
+        <p>نحو تجارب رقمية ذكية ومبتكرة</p>
+    </header>
+
+    <div class="container">
+        <h2 class="section-title">مشاريع مميزة</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>تصميم واجهات المستخدم (UX/UI)</h3>
+                <p>تطوير تجارب مستخدم تفاعلية مستوحاة من أحدث معايير التصميم وسهولة الاستخدام.</p>
+            </div>
+            <div class="card">
+                <h3>حلول الأتمتة الذكية</h3>
+                <p>بناء أدوات وأنظمة تعتمد على الذكاء الاصطناعي لحل المشكلات المعقدة وتوفير الوقت.</p>
+            </div>
+            <div class="card">
+                <h3>تطوير الويب الحديث</h3>
+                <p>تحويل الأفكار الإبداعية إلى تطبيقات ويب سريعة، متجاوبة، وذات كفاءة عالية.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 - تم إنشاء هذا المشروع بواسطة الذكاء الاصطناعي.</p>
+    </footer>
+
+</body>
+</html>
